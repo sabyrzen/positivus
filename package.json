@@ -1,0 +1,25 @@
+{
+  "name": "positivus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "sass src/styles/main.scss dist/styles/main.css --watch",
+    "dist": "rm -rf dist && mkdir dist && cp src/index.html dist/index.html && cp -R src/assets dist/assets && sass src/styles:dist/styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabyrzen/positivus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sabyrzen/positivus/issues"
+  },
+  "homepage": "https://github.com/sabyrzen/positivus#readme",
+  "devDependencies": {
+    "sass": "^1.94.0"
+  }
+}
